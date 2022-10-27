@@ -117,41 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="btnStartTImer.Text" xml:space="preserve">
-    <value>Start</value>
-  </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>EN-US</value>
-  </data>
-  <data name="btnStopTImer.Text" xml:space="preserve">
-    <value>Stop</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="LargeNameApp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 36</value>
-  </data>
-  <data name="LargeNameApp.Text" xml:space="preserve">
-    <value>Land Time</value>
-  </data>
-  <data name="MainNameCity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>278, 26</value>
-  </data>
-  <data name="MainNameCity.Text" xml:space="preserve">
-    <value>Moskov time(UTC +3 MSK)</value>
-  </data>
-  <data name="VladivostorTimeLebel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 20</value>
-  </data>
-  <data name="VladivostorTimeLebel.Text" xml:space="preserve">
-    <value>Vladivostok time(UTC+10 VLAT)</value>
-  </data>
-  <data name="LondontTmelabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 20</value>
-  </data>
-  <data name="LondontTmelabel.Text" xml:space="preserve">
-    <value>London time(UTC+1 BST)</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Main Wondow</value>
-  </data>
 </root>

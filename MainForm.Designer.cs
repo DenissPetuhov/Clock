@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -37,14 +36,8 @@
             this.btnStopTImer = new System.Windows.Forms.Button();
             this.LargeNameApp = new System.Windows.Forms.Label();
             this.LargeTime = new System.Windows.Forms.Label();
-            this.MainNameCity = new System.Windows.Forms.Label();
-            this.mainTimer = new System.Windows.Forms.Timer(this.components);
-            this.LableVladivostorTIme = new System.Windows.Forms.Label();
-            this.VladivostorTimeLebel = new System.Windows.Forms.Label();
-            this.LondontTmelabel = new System.Windows.Forms.Label();
-            this.lableLondonTime = new System.Windows.Forms.Label();
-            this.Caliningrad = new System.Windows.Forms.Label();
-            this.CaliningradLable = new System.Windows.Forms.Label();
+            this.cb_CityList = new System.Windows.Forms.ComboBox();
+            this.btn_AddCity = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,7 +57,7 @@
             resources.ApplyResources(this.btnStartTImer, "btnStartTImer");
             this.btnStartTImer.Name = "btnStartTImer";
             this.btnStartTImer.UseVisualStyleBackColor = true;
-            this.btnStartTImer.Click += new System.EventHandler(this.btnStartTImer_Click);
+            this.btnStartTImer.Click += new System.EventHandler(this.btnStartTimer_Click);
             // 
             // button2
             // 
@@ -77,7 +70,7 @@
             resources.ApplyResources(this.btnStopTImer, "btnStopTImer");
             this.btnStopTImer.Name = "btnStopTImer";
             this.btnStopTImer.UseVisualStyleBackColor = true;
-            this.btnStopTImer.Click += new System.EventHandler(this.btnStopTImer_click);
+            this.btnStopTImer.Click += new System.EventHandler(this.btnStopTimer_click);
             // 
             // LargeNameApp
             // 
@@ -89,65 +82,32 @@
             resources.ApplyResources(this.LargeTime, "LargeTime");
             this.LargeTime.Name = "LargeTime";
             // 
-            // MainNameCity
+            // cb_CityList
             // 
-            resources.ApplyResources(this.MainNameCity, "MainNameCity");
-            this.MainNameCity.Name = "MainNameCity";
+            resources.ApplyResources(this.cb_CityList, "cb_CityList");
+            this.cb_CityList.FormattingEnabled = true;
+            this.cb_CityList.Name = "cb_CityList";
+            this.cb_CityList.SelectedIndexChanged += new System.EventHandler(this.cb_CityList_SelectedIndexChanged);
             // 
-            // mainTimer
+            // btn_AddCity
             // 
-            this.mainTimer.Enabled = true;
-            this.mainTimer.Interval = 1000;
-            this.mainTimer.Tick += new System.EventHandler(this.mainTimer_Tick);
-            // 
-            // LableVladivostorTIme
-            // 
-            resources.ApplyResources(this.LableVladivostorTIme, "LableVladivostorTIme");
-            this.LableVladivostorTIme.Name = "LableVladivostorTIme";
-            // 
-            // VladivostorTimeLebel
-            // 
-            resources.ApplyResources(this.VladivostorTimeLebel, "VladivostorTimeLebel");
-            this.VladivostorTimeLebel.Name = "VladivostorTimeLebel";
-            // 
-            // LondontTmelabel
-            // 
-            resources.ApplyResources(this.LondontTmelabel, "LondontTmelabel");
-            this.LondontTmelabel.Name = "LondontTmelabel";
-            // 
-            // lableLondonTime
-            // 
-            resources.ApplyResources(this.lableLondonTime, "lableLondonTime");
-            this.lableLondonTime.Name = "lableLondonTime";
-            // 
-            // Caliningrad
-            // 
-            resources.ApplyResources(this.Caliningrad, "Caliningrad");
-            this.Caliningrad.Name = "Caliningrad";
-            // 
-            // CaliningradLable
-            // 
-            resources.ApplyResources(this.CaliningradLable, "CaliningradLable");
-            this.CaliningradLable.Name = "CaliningradLable";
+            resources.ApplyResources(this.btn_AddCity, "btn_AddCity");
+            this.btn_AddCity.Name = "btn_AddCity";
+            this.btn_AddCity.UseVisualStyleBackColor = true;
+            this.btn_AddCity.Click += new System.EventHandler(this.btn_AddCity_Click);
             // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.CaliningradLable);
-            this.Controls.Add(this.Caliningrad);
-            this.Controls.Add(this.lableLondonTime);
-            this.Controls.Add(this.LondontTmelabel);
-            this.Controls.Add(this.VladivostorTimeLebel);
-            this.Controls.Add(this.LableVladivostorTIme);
-            this.Controls.Add(this.MainNameCity);
+            this.Controls.Add(this.btn_AddCity);
+            this.Controls.Add(this.cb_CityList);
             this.Controls.Add(this.LargeTime);
             this.Controls.Add(this.LargeNameApp);
             this.Controls.Add(this.btnStopTImer);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnStartTImer);
             this.Name = "MainForm";
-            this.Load += new System.EventHandler(this.MainForm_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -162,14 +122,8 @@
         private System.Windows.Forms.Button btnStopTImer;
         private System.Windows.Forms.Label LargeNameApp;
         private System.Windows.Forms.Label LargeTime;
-        private System.Windows.Forms.Label MainNameCity;
-        private System.Windows.Forms.Timer mainTimer;
-        private System.Windows.Forms.Label LableVladivostorTIme;
-        private System.Windows.Forms.Label VladivostorTimeLebel;
-        private System.Windows.Forms.Label LondontTmelabel;
-        private System.Windows.Forms.Label lableLondonTime;
-        private System.Windows.Forms.Label Caliningrad;
-        private System.Windows.Forms.Label CaliningradLable;
+        private System.Windows.Forms.ComboBox cb_CityList;
+        private System.Windows.Forms.Button btn_AddCity;
     }
 }
 

@@ -12,68 +12,43 @@ namespace ClockCheker
 {
     public partial class MainForm : Form
     {
-        public TimeSpan timenow = DateTime.Now.TimeOfDay;
-    
-       // Clock clock= new Clock();
-        
+        Clock clock = new Clock();
+        List<string> CityNamesList ;
+        private string CityName;
+     
         public MainForm()
         {
-
             InitializeComponent();
-            mainTimer.Start();
-          
-        
-            
-        }
-
-        private void MainForm_Load(object sender, EventArgs e)
-        {
-           // LargeTime.Text = clock.timeNow.ToString();
-        }
-        public void TimeCheked()
-        {
-            timenow = DateTime.Now.TimeOfDay;
-        }
-
-
-
-
-        Dictionary<string, TimeSpan> Cities = new Dictionary<string, TimeSpan>
-        {
-             {"Москва",new TimeSpan(0,0,0)},
-             {"Лондон",new TimeSpan(22,0,0)},
-             {"Владивосток", new TimeSpan(7,0,0)},
-             {"Калининград", new TimeSpan(1,0,0) }
-        };
-
-        private void mainTimer_Tick(object sender, EventArgs e)
-        {
-            TimeCheked();
-
-            LargeTime.Text = Convert.ToString(timenow.Hours + ":" + timenow.Minutes + ":" + timenow.Seconds);
-
-            TimeSpan vladivostoktime = timenow + Cities["Владивосток"];
-            LableVladivostorTIme.Text = Convert.ToString(vladivostoktime.Hours + ":" + vladivostoktime.Minutes + ":" + vladivostoktime.Seconds);
-
-            TimeSpan londonTime = timenow + Cities["Лондон"];
-            lableLondonTime.Text = Convert.ToString((londonTime.Hours + ":" + londonTime.Minutes + ":" + londonTime.Seconds));
-
-            TimeSpan Caliningrad  = timenow + Cities["Калининград"];
-            CaliningradLable.Text = Convert.ToString((Caliningrad.Hours + ":" + Caliningrad.Minutes + ":" + Caliningrad.Seconds));
-
+            CityNamesList = clock.GetCityNamesList();   
+            cb_CityList.DataSource = CityNamesList;
+            clock.SeconTick += SetTimeTick;
 
         }
-
-        private void btnStopTImer_click(object sender, EventArgs e)
+        private void SetTimeTick()
         {
-            mainTimer.Stop();
+          //  CityNamesList = clock.GetCityNamesList();
+            TimeSpan time =clock.GetTimeCityNow(CityName);
+            SetLableTime(time);
         }
 
-        private void btnStartTImer_Click(object sender, EventArgs e)
+        public void SetLableTime(TimeSpan time) {
+            LargeTime.Text = time.Hours.ToString() + ":" + time.Minutes.ToString() + ":" + time.Seconds.ToString();
+        }
+ 
+        private void btnStopTimer_click(object sender, EventArgs e) => clock.StopTimer();
+
+        private void btnStartTimer_Click(object sender, EventArgs e) => clock.StartTimer();
+
+        private void cb_CityList_SelectedIndexChanged(object sender, EventArgs e)
         {
-            mainTimer.Start();
+            CityName = cb_CityList.SelectedItem.ToString();
         }
 
-     
+        private void btn_AddCity_Click(object sender, EventArgs e)
+        {
+            AddCityForm form = new AddCityForm();
+            form.Show();
+            this.Hide();
+        }
     }
 }

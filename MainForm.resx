@@ -177,7 +177,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnStartTImer.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>6</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
     <value>156, 48</value>
@@ -201,7 +201,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>5</value>
   </data>
   <data name="btnStopTImer.Location" type="System.Drawing.Point, System.Drawing">
     <value>251, 48</value>
@@ -225,7 +225,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnStopTImer.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>4</value>
   </data>
   <data name="LargeNameApp.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -255,7 +255,11 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LargeNameApp.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>3</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LargeTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="LargeTime.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -264,7 +268,7 @@
     <value>Microsoft Sans Serif, 72pt</value>
   </data>
   <data name="LargeTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-10, 112</value>
+    <value>-8, 74</value>
   </data>
   <data name="LargeTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>417, 108</value>
@@ -285,223 +289,57 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LargeTime.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="MainNameCity.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="MainNameCity.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 16pt</value>
-  </data>
-  <data name="MainNameCity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 86</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="MainNameCity.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 0, 5, 0</value>
-  </data>
-  <data name="MainNameCity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>322, 26</value>
-  </data>
-  <data name="MainNameCity.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="MainNameCity.Text" xml:space="preserve">
-    <value>Время в Москве(UTC +3 MSK)</value>
-  </data>
-  <data name="&gt;&gt;MainNameCity.Name" xml:space="preserve">
-    <value>MainNameCity</value>
-  </data>
-  <data name="&gt;&gt;MainNameCity.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;MainNameCity.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;MainNameCity.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <metadata name="mainTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <data name="LableVladivostorTIme.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LableVladivostorTIme.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 36pt</value>
-  </data>
-  <data name="LableVladivostorTIme.Location" type="System.Drawing.Point, System.Drawing">
-    <value>93, 265</value>
-  </data>
-  <data name="LableVladivostorTIme.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 55</value>
-  </data>
-  <data name="LableVladivostorTIme.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="LableVladivostorTIme.Text" xml:space="preserve">
-    <value>00:00:00</value>
-  </data>
-  <data name="&gt;&gt;LableVladivostorTIme.Name" xml:space="preserve">
-    <value>LableVladivostorTIme</value>
-  </data>
-  <data name="&gt;&gt;LableVladivostorTIme.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LableVladivostorTIme.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;LableVladivostorTIme.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="VladivostorTimeLebel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="VladivostorTimeLebel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="VladivostorTimeLebel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 233</value>
-  </data>
-  <data name="VladivostorTimeLebel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>308, 20</value>
-  </data>
-  <data name="VladivostorTimeLebel.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="VladivostorTimeLebel.Text" xml:space="preserve">
-    <value>Время во Владивостоке(UTC+10 VLAT)</value>
-  </data>
-  <data name="&gt;&gt;VladivostorTimeLebel.Name" xml:space="preserve">
-    <value>VladivostorTimeLebel</value>
-  </data>
-  <data name="&gt;&gt;VladivostorTimeLebel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;VladivostorTimeLebel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;VladivostorTimeLebel.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="LondontTmelabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LondontTmelabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="LondontTmelabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 337</value>
-  </data>
-  <data name="LondontTmelabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>238, 20</value>
-  </data>
-  <data name="LondontTmelabel.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="LondontTmelabel.Text" xml:space="preserve">
-    <value>Время в Лондоне(UTC+1 BST)</value>
-  </data>
-  <data name="&gt;&gt;LondontTmelabel.Name" xml:space="preserve">
-    <value>LondontTmelabel</value>
-  </data>
-  <data name="&gt;&gt;LondontTmelabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LondontTmelabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;LondontTmelabel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="lableLondonTime.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lableLondonTime.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 36pt</value>
-  </data>
-  <data name="lableLondonTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>93, 368</value>
-  </data>
-  <data name="lableLondonTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 55</value>
-  </data>
-  <data name="lableLondonTime.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="lableLondonTime.Text" xml:space="preserve">
-    <value>00:00:00</value>
-  </data>
-  <data name="&gt;&gt;lableLondonTime.Name" xml:space="preserve">
-    <value>lableLondonTime</value>
-  </data>
-  <data name="&gt;&gt;lableLondonTime.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lableLondonTime.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lableLondonTime.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="Caliningrad.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Caliningrad.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="cb_CityList.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
-  <data name="Caliningrad.Location" type="System.Drawing.Point, System.Drawing">
-    <value>32, 428</value>
+  <data name="cb_CityList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 185</value>
   </data>
-  <data name="Caliningrad.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 20</value>
+  <data name="cb_CityList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 28</value>
   </data>
-  <data name="Caliningrad.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="cb_CityList.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
-  <data name="Caliningrad.Text" xml:space="preserve">
-    <value>Калининград</value>
+  <data name="cb_CityList.Text" xml:space="preserve">
+    <value>Выберите город</value>
   </data>
-  <data name="&gt;&gt;Caliningrad.Name" xml:space="preserve">
-    <value>Caliningrad</value>
+  <data name="&gt;&gt;cb_CityList.Name" xml:space="preserve">
+    <value>cb_CityList</value>
   </data>
-  <data name="&gt;&gt;Caliningrad.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;cb_CityList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Caliningrad.Parent" xml:space="preserve">
+  <data name="&gt;&gt;cb_CityList.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;Caliningrad.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;cb_CityList.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="CaliningradLable.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="btn_AddCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 219</value>
   </data>
-  <data name="CaliningradLable.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Tai Le, 36pt</value>
+  <data name="btn_AddCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 23</value>
   </data>
-  <data name="CaliningradLable.Location" type="System.Drawing.Point, System.Drawing">
-    <value>93, 465</value>
+  <data name="btn_AddCity.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
-  <data name="CaliningradLable.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 62</value>
+  <data name="btn_AddCity.Text" xml:space="preserve">
+    <value>Добавить город</value>
   </data>
-  <data name="CaliningradLable.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+  <data name="&gt;&gt;btn_AddCity.Name" xml:space="preserve">
+    <value>btn_AddCity</value>
   </data>
-  <data name="CaliningradLable.Text" xml:space="preserve">
-    <value>00:00:00</value>
+  <data name="&gt;&gt;btn_AddCity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;CaliningradLable.Name" xml:space="preserve">
-    <value>CaliningradLable</value>
-  </data>
-  <data name="&gt;&gt;CaliningradLable.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CaliningradLable.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btn_AddCity.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;CaliningradLable.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;btn_AddCity.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -511,16 +349,10 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>384, 561</value>
+    <value>384, 261</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Главное окно</value>
-  </data>
-  <data name="&gt;&gt;mainTimer.Name" xml:space="preserve">
-    <value>mainTimer</value>
-  </data>
-  <data name="&gt;&gt;mainTimer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>
