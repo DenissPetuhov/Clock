@@ -46,12 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddCityForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AddCityForm.Designer.cs">
-      <DependentUpon>AddCityForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Clock.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -61,9 +55,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AddCityForm.resx">
-      <DependentUpon>AddCityForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>

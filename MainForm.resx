@@ -159,7 +159,7 @@
     <value>75, 48</value>
   </data>
   <data name="btnStartTImer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>109, 23</value>
   </data>
   <data name="btnStartTImer.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -177,37 +177,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnStartTImer.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>156, 48</value>
-  </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 23</value>
-  </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>Русский</value>
-  </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
-  </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>11</value>
   </data>
   <data name="btnStopTImer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>251, 48</value>
+    <value>213, 48</value>
   </data>
   <data name="btnStopTImer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>113, 23</value>
   </data>
   <data name="btnStopTImer.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -225,7 +201,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnStopTImer.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>10</value>
   </data>
   <data name="LargeNameApp.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -255,7 +231,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LargeNameApp.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>9</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="LargeTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -289,7 +265,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LargeTime.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>8</value>
   </data>
   <data name="cb_CityList.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -316,7 +292,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cb_CityList.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>7</value>
   </data>
   <data name="btn_AddCity.Location" type="System.Drawing.Point, System.Drawing">
     <value>32, 219</value>
@@ -340,6 +316,258 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btn_AddCity.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cb_SetHours.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16pt</value>
+  </data>
+  <data name="cb_SetHours.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cb_SetHours.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cb_SetHours.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cb_SetHours.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cb_SetHours.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cb_SetHours.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cb_SetHours.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cb_SetHours.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cb_SetHours.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cb_SetHours.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cb_SetHours.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cb_SetHours.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="cb_SetHours.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="cb_SetHours.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cb_SetHours.Items14" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="cb_SetHours.Items15" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="cb_SetHours.Items16" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="cb_SetHours.Items17" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="cb_SetHours.Items18" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="cb_SetHours.Items19" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="cb_SetHours.Items20" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="cb_SetHours.Items21" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="cb_SetHours.Items22" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="cb_SetHours.Items23" xml:space="preserve">
+    <value>00</value>
+  </data>
+  <data name="cb_SetHours.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 312</value>
+  </data>
+  <data name="cb_SetHours.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 33</value>
+  </data>
+  <data name="cb_SetHours.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cb_SetHours.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cb_SetHours.Name" xml:space="preserve">
+    <value>cb_SetHours</value>
+  </data>
+  <data name="&gt;&gt;cb_SetHours.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cb_SetHours.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cb_SetHours.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lab_Hours.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lab_Hours.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 296</value>
+  </data>
+  <data name="lab_Hours.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="lab_Hours.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lab_Hours.Text" xml:space="preserve">
+    <value>Часов</value>
+  </data>
+  <data name="lab_Hours.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lab_Hours.Name" xml:space="preserve">
+    <value>lab_Hours</value>
+  </data>
+  <data name="&gt;&gt;lab_Hours.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lab_Hours.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lab_Hours.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lab_enterTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lab_enterTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="lab_enterTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 312</value>
+  </data>
+  <data name="lab_enterTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 24</value>
+  </data>
+  <data name="lab_enterTime.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lab_enterTime.Text" xml:space="preserve">
+    <value>Часов в этом городе:</value>
+  </data>
+  <data name="lab_enterTime.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lab_enterTime.Name" xml:space="preserve">
+    <value>lab_enterTime</value>
+  </data>
+  <data name="&gt;&gt;lab_enterTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lab_enterTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lab_enterTime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lab_enterCity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lab_enterCity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="lab_enterCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 256</value>
+  </data>
+  <data name="lab_enterCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 24</value>
+  </data>
+  <data name="lab_enterCity.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lab_enterCity.Text" xml:space="preserve">
+    <value>Введите город:</value>
+  </data>
+  <data name="lab_enterCity.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lab_enterCity.Name" xml:space="preserve">
+    <value>lab_enterCity</value>
+  </data>
+  <data name="&gt;&gt;lab_enterCity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lab_enterCity.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lab_enterCity.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tb_CityName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="tb_CityName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 253</value>
+  </data>
+  <data name="tb_CityName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 29</value>
+  </data>
+  <data name="tb_CityName.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="tb_CityName.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tb_CityName.Name" xml:space="preserve">
+    <value>tb_CityName</value>
+  </data>
+  <data name="&gt;&gt;tb_CityName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb_CityName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tb_CityName.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btn_Complet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="btn_Complet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 351</value>
+  </data>
+  <data name="btn_Complet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 39</value>
+  </data>
+  <data name="btn_Complet.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="btn_Complet.Text" xml:space="preserve">
+    <value>Готово</value>
+  </data>
+  <data name="btn_Complet.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btn_Complet.Name" xml:space="preserve">
+    <value>btn_Complet</value>
+  </data>
+  <data name="&gt;&gt;btn_Complet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Complet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Complet.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -349,7 +577,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>384, 261</value>
+    <value>384, 401</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Главное окно</value>

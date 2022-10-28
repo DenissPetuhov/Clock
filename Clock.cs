@@ -19,12 +19,13 @@ namespace ClockCheker
         private TimeSpan timeNow = DateTime.Now.TimeOfDay;
         public delegate void TimeHAndler();
         public event TimeHAndler SeconTick;
-        public Dictionary<string, TimeSpan> Cities = new Dictionary<string, TimeSpan>
+        Dictionary<string, TimeSpan> Cities = new Dictionary<string, TimeSpan>
         {
              {"Москва",new TimeSpan(0,0,0)},
              {"Лондон",new TimeSpan(22,0,0)},
              {"Владивосток", new TimeSpan(7,0,0)},
-             {"Калининград", new TimeSpan(1,0,0)}
+             {"Калининград", new TimeSpan(1,0,0)},
+             {"Воронеж", new TimeSpan(5,0,0)}
         };
 
         public Clock()
@@ -35,7 +36,7 @@ namespace ClockCheker
         private void Tick(object sender, EventArgs e)
         {
             timeNow = DateTime.Now.TimeOfDay;
-            SeconTick();
+            SeconTick?.Invoke();
         }
 
         public TimeSpan GetTimeCityNow(string NameCity)
@@ -63,3 +64,4 @@ namespace ClockCheker
     }
 
 }
+
